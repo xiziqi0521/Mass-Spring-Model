@@ -1,4 +1,4 @@
-<img width="400" height="420" alt="20260608_144250" src="https://github.com/user-attachments/assets/a65bcfea-f3d7-4903-8767-d3584ab7afc7" /># Lab 2: Mass-Spring Cloth Simulation
+# Lab 2: Mass-Spring Cloth Simulation
 
 基于 Taichi 框架的质点-弹簧布料物理仿真，实现三种数值积分方法对比，并扩展完整弹簧模型与球体碰撞检测。
 
