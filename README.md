@@ -1,4 +1,4 @@
-# Lab 2: Mass-Spring Cloth Simulation
+<img width="400" height="420" alt="20260608_144250" src="https://github.com/user-attachments/assets/a65bcfea-f3d7-4903-8767-d3584ab7afc7" /># Lab 2: Mass-Spring Cloth Simulation
 
 基于 Taichi 框架的质点-弹簧布料物理仿真，实现三种数值积分方法对比，并扩展完整弹簧模型与球体碰撞检测。
 
@@ -180,6 +180,7 @@ $$x_{t+1} = x_t + v_{t+1} \Delta t$$
 场景渲染：
 - 质点以半径 0.015 的蓝色粒子渲染
 - 弹簧以白色线框渲染，使用预生成的 `spring_indices` 索引缓冲
+<img width="400" height="420" alt="20260608_144250" src="https://github.com/user-attachments/assets/0f1fbbd5-caf4-4139-9acb-cc72129302e0" />
 
 ---
 
@@ -273,6 +274,7 @@ o       o       o
 - 仅结构弹簧：适合基础验证，布料可沿对角方向过度变形
 - 结构 + 剪切：布料抗剪能力增强，更接近真实织物行为
 - 全部启用：弯曲刚度使布料折叠时保持自然曲率，更具真实感
+<img width="400" height="420" alt="20260608_144329" src="https://github.com/user-attachments/assets/0ab20fab-e5b8-4385-aa8c-33ac8ae892b1" />
 
 ---
 
