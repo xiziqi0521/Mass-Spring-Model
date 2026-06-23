@@ -1,5 +1,5 @@
-# Lab 2: Mass-Spring Cloth Simulation
-
+# Mass-Spring Cloth Simulation
+# 202411081099 计算机科学与技术 席子琦
 基于 Taichi 框架的质点-弹簧布料物理仿真，实现三种数值积分方法对比，并扩展完整弹簧模型与球体碰撞检测。
 
 ---
